@@ -76,3 +76,13 @@ export default function RootLayout({
     </html>
   );
 }
+export const metadata = {
+  title: 'Master Strategist | Elite Collection',
+  description: 'Unlock your potential with our digital collection.',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    images: ['/og-image.png'],
+  },
+};
