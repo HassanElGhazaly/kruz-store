@@ -2,7 +2,8 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { fetchProductBySlug, type Product } from '@/lib/supabase';
+import { getSupabase } from '@/lib/supabase';
+const supabase = getSupabase();
 
 function CheckoutContent() {
   const searchParams = useSearchParams();
