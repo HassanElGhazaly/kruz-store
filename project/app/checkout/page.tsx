@@ -16,7 +16,7 @@ function CheckoutContent() {
 
   useEffect(() => {
     fetchProductBySlug(productSlug).then((p) => {
-      setProduct(p);
+      setProduct(JSON.parse(JSON.stringify(p)));
       setLoading(false);
     });
   }, [productSlug]);
