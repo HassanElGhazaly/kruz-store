@@ -1,12 +1,5 @@
 export const metadata = {
-  title: 'Master Strategist | The Elite Library',
-  description: 'Curated collection of the world’s most powerful strategic and philosophical works. Unlock your potential.',
-  icons: {
-    icon: '/favicon.ico',
-  },
-  openGraph: {
-    title: 'Master Strategist | Elite Library',
-    description: 'Master the art of strategy with our exclusive, curated digital library.',
-    images: ['/logo.png'],
-  },
+  title: 'Master Strategist',
+  description: 'Elite Library',
+  metadataBase: new URL('https://masterstrategist.store'), // زد هادي باش تحيد الـ Warning
 };
