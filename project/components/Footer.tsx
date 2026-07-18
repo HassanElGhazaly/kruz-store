@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 export default function Footer() {
   return (
     <footer className="relative border-t border-gold-500/10 bg-ink-950">
