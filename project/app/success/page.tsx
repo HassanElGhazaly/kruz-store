@@ -3,7 +3,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
-
+export const dynamic = 'force-dynamic';
 function SuccessContent() {
   const searchParams = useSearchParams();
   const orderId = searchParams.get('order');
