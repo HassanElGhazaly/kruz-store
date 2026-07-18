@@ -3,6 +3,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { getSupabase } from '@/lib/supabase';
+export const dynamic = 'force-dynamic';
 const supabase = getSupabase();
 
 function CheckoutContent() {
