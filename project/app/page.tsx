@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Book3DMockup from '@/components/Book3DMockup';
 import ZoomModal from '@/components/ZoomModal';
 import { fetchProductBySlug, type Product } from '@/lib/supabase';
-
+export const dynamic = 'force-dynamic';
 export default function Home() {
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
